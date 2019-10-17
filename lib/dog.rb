@@ -1,5 +1,5 @@
 class Dog 
-  def initialize(name, breed = "Mutt") # Note - no need to pass mandatory args.
+  def initialize(name, breed = "Mutt") # Note - name is mandatory args, breed is optional w/default "Mutt"
     @name = name
     @breed = breed
   end  
